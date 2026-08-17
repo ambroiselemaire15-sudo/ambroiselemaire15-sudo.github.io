@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ambroiselemaire15-sudo.github.io/cyclopratique/sitemap.xml
