@@ -3,10 +3,105 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="refresh" content="0;url=cyclopratique.html">
-<title>CycloPratique</title>
+<title>CycloPratique — Guides vélo, équipement, entretien et trajets</title>
+<meta name="description" content="CycloPratique : guides pratiques et indépendants pour choisir son vélo, améliorer ses trajets, comprendre l'équipement et entretenir son matériel.">
+<meta name="robots" content="index,follow">
+<style>
+:root{--ink:#102033;--muted:#5d6d7a;--bg:#f4f7f9;--white:#fff;--accent:#e85d04;--line:#dce5ea}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.65}
+.wrap{width:min(1120px,calc(100% - 36px));margin:auto}a{color:inherit}
+.top{background:var(--ink);color:#dbe5eb;font-size:12px}.top .wrap{display:flex;justify-content:space-between;padding:8px 0}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:25px;font-weight:900;text-decoration:none;letter-spacing:-.8px}.logo b{color:var(--accent)}
+nav{display:flex;gap:22px;font-size:14px;font-weight:750}nav a{text-decoration:none}
+.hero{background:linear-gradient(135deg,#102033,#24465d);color:#fff;padding:70px 0 64px}.eyebrow{font-size:11px;font-weight:900;letter-spacing:1.5px;color:#ff9a5c}
+h1{font-size:clamp(40px,7vw,68px);line-height:1.02;letter-spacing:-2px;max-width:850px;margin:12px 0 18px}.hero p{font-size:19px;max-width:730px;color:#dce7ee}.btn{display:inline-block;margin-top:16px;background:var(--accent);padding:12px 17px;border-radius:9px;text-decoration:none;font-weight:800}
+.section{padding:54px 0}.section h2{font-size:32px;letter-spacing:-.7px;margin:0 0 8px}.lead{color:var(--muted);max-width:760px}
+.ad{background:#fff;border:1px dashed #b8c3ca;border-radius:10px;padding:15px;text-align:center;color:#7b8790;font-size:11px;letter-spacing:1px;margin-bottom:34px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px;margin-top:28px}.card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:23px;box-shadow:0 4px 15px #1020330a}.cat{color:var(--accent);font-size:10px;font-weight:900;letter-spacing:1.2px;text-transform:uppercase}.card h3{font-size:20px;line-height:1.25;margin:8px 0}.card p{color:var(--muted);font-size:14px}.read{font-weight:800;text-decoration:none}
+.article{background:#fff;border:1px solid var(--line);border-radius:15px;padding:30px;margin-top:22px}.article h2{font-size:28px}.article h3{font-size:20px}.article p{max-width:850px}.article ul{max-width:850px}.note{border-left:4px solid var(--accent);padding:12px 16px;background:#fff4ec;margin:20px 0;max-width:850px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}.feature{background:#fff;border:1px solid var(--line);border-radius:14px;padding:21px}.feature span{display:block;color:var(--muted);font-size:14px}
+.author{background:#e8f0f4;padding:42px 0}.authorbox{display:grid;grid-template-columns:1fr 2fr;gap:35px;align-items:center}.authorbox p{color:#465b6b}
+footer{background:#0b1724;color:#cbd7de;padding:42px 0}.foot{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.foot h3{color:#fff}.foot a{color:#fff}.copy{border-top:1px solid #314352;margin-top:30px;padding-top:18px;font-size:12px;color:#91a3b0}
+@media(max-width:820px){nav{display:none}.grid,.features,.authorbox,.foot{grid-template-columns:1fr}.hero{padding-top:48px}}
+</style>
 </head>
 <body>
-<p>Chargement de <a href="cyclopratique.html">CycloPratique</a>…</p>
-</body>
-</html>
+<div class="top"><div class="wrap"><span>Guides vélo indépendants</span><span>Édité par Lemaire Ambroise</span></div></div>
+<header><div class="wrap nav"><a class="logo" href="index.html">Cyclo<b>Pratique</b></a><nav><a href="#guides">Guides</a><a href="#methodes">Méthodes</a><a href="a-propos.html">À propos</a><a href="contact.html">Contact</a></nav></div></header>
+
+<main>
+<section class="hero"><div class="wrap"><div class="eyebrow">LE VÉLO, EXPLIQUÉ SIMPLEMENT</div>
+<h1>Mieux choisir son vélo. Mieux rouler. Mieux l'entretenir.</h1>
+<p>CycloPratique transforme les questions fréquentes des cyclistes en guides concrets : choix du vélo, équipement, entretien, trajets quotidiens et progression.</p>
+<a class="btn" href="#guides">Explorer les guides</a></div></section>
+
+<section class="section wrap" id="guides">
+<div class="ad">ESPACE PUBLICITAIRE — aucune publicité automatique n'est activée sur cette version</div>
+<h2>Les guides essentiels</h2><p class="lead">Des réponses structurées, avec les critères qui permettent réellement de prendre une décision.</p>
+<div class="grid">
+<article class="card"><div class="cat">Choix</div><h3>Vélo de route ou VTT pour les trajets quotidiens ?</h3><p>Comparer rendement, confort, pneus, position et entretien selon son parcours.</p><a class="read" href="#route-vtt">Lire →</a></article>
+<article class="card"><div class="cat">Achat</div><h3>Choisir son premier vélo de route</h3><p>Comprendre taille, cadre, transmission, roues et budget avant d'acheter.</p><a class="read" href="#premier-route">Lire →</a></article>
+<article class="card"><div class="cat">Mobilité</div><h3>Préparer efficacement un trajet de 10 km</h3><p>Itinéraire, allure, vêtements, sac et marge de temps : une méthode simple.</p><a class="read" href="#10km">Lire →</a></article>
+<article class="card"><div class="cat">Entretien</div><h3>Quelle pression pour ses pneus ?</h3><p>Comprendre l'influence du poids, de la largeur du pneu et du terrain.</p><a class="read" href="#pression">Lire →</a></article>
+<article class="card"><div class="cat">Équipement</div><h3>Les équipements vraiment utiles pour débuter</h3><p>Prioriser sécurité, confort et fiabilité sans acheter tout le catalogue.</p><a class="read" href="#equipement">Lire →</a></article>
+<article class="card"><div class="cat">Entretien</div><h3>Entretenir une chaîne de vélo</h3><p>Nettoyage, lubrification, inspection et signes d'usure à connaître.</p><a class="read" href="#chaine">Lire →</a></article>
+<article class="card"><div class="cat">Progression</div><h3>Améliorer sa vitesse moyenne</h3><p>Les leviers les plus efficaces avant de chercher du matériel plus cher.</p><a class="read" href="#vitesse">Lire →</a></article>
+<article class="card"><div class="cat">Occasion</div><h3>Contrôler un vélo d'occasion</h3><p>Une checklist claire pour le cadre, les roues, les freins et la transmission.</p><a class="read" href="#occasion">Lire →</a></article>
+<article class="card"><div class="cat">Mobilité</div><h3>Vélo électrique ou classique ?</h3><p>Distance, relief, fréquence et effort : choisir selon son usage réel.</p><a class="read" href="#electrique">Lire →</a></article>
+</div></section>
+
+<section class="section wrap">
+<div class="article" id="route-vtt"><div class="cat">Guide choix</div><h2>Vélo de route ou VTT pour les trajets quotidiens ?</h2>
+<p>Pour un trajet sur bitume, le choix ne dépend pas uniquement de la vitesse maximale. La surface, la distance, les arrêts et la position comptent davantage. Un vélo de route possède généralement des pneus plus fins et une position pensée pour limiter la résistance à l'air. Un VTT, avec ses pneus larges et crantés, privilégie le contrôle sur chemins et terrains irréguliers.</p>
+<h3>Pour un trajet principalement urbain</h3><p>Si le parcours est presque entièrement asphalté, un vélo de route, un vélo de ville ou un hybride sera souvent plus cohérent qu'un VTT à gros pneus. En revanche, les nids-de-poule, bordures et chemins peuvent rendre un vélo plus polyvalent intéressant. Le meilleur choix est donc celui qui correspond à la surface réellement parcourue.</p>
+<div class="note"><strong>À retenir :</strong> sur route régulière, privilégiez rendement et position ; sur terrain dégradé ou mixte, privilégiez contrôle et polyvalence.</div></div>
+
+<div class="article" id="premier-route"><div class="cat">Guide achat</div><h2>Comment choisir son premier vélo de route</h2>
+<p>Un premier vélo de route n'a pas besoin d'être extrêmement haut de gamme. La priorité est d'avoir une taille correcte, une position confortable et une transmission adaptée à son niveau. Un cadre plus cher ne compensera pas une mauvaise taille.</p>
+<h3>Les quatre critères prioritaires</h3><ul><li><strong>Taille :</strong> la géométrie doit correspondre à votre morphologie et à votre souplesse.</li><li><strong>Transmission :</strong> plusieurs développements permettent de gérer les côtes sans forcer inutilement.</li><li><strong>Roues et pneus :</strong> leur comportement influence fortement confort et sensations.</li><li><strong>Freinage :</strong> il doit être progressif et adapté à l'usage et aux conditions.</li></ul>
+<p>Pour un premier achat, il est généralement plus judicieux de réserver une partie du budget à l'équipement et à l'entretien plutôt que de mettre tout le budget dans le cadre.</p></div>
+
+<div class="article" id="10km"><div class="cat">Guide pratique</div><h2>Préparer un trajet vélo de 10 km</h2>
+<p>Dix kilomètres représentent une distance accessible à beaucoup de cyclistes, mais la difficulté varie énormément selon le dénivelé, les intersections et le vent. Avant de partir, choisissez un itinéraire agréable plutôt que le chemin automobile le plus court.</p>
+<h3>La méthode en cinq étapes</h3><ol><li>Vérifier le parcours et les éventuelles portions difficiles.</li><li>Prévoir une marge de temps pour les feux et ralentissements.</li><li>Contrôler rapidement pneus, freins et chaîne.</li><li>Choisir des vêtements adaptés à la météo et à l'effort.</li><li>Partir progressivement et accélérer seulement si les sensations sont bonnes.</li></ol>
+<p>Pour un trajet régulier, la meilleure stratégie est de répéter le parcours jusqu'à connaître ses points de ralentissement. La régularité compte davantage qu'une performance ponctuelle.</p></div>
+
+<div class="article" id="pression"><div class="cat">Entretien</div><h2>Quelle pression pour les pneus de vélo ?</h2>
+<p>Il n'existe pas une pression universelle. Elle dépend notamment de la largeur du pneu, du poids total cycliste-vélo-bagages, du type de jante, du terrain et des indications du fabricant.</p>
+<h3>Une règle simple</h3><p>Commencez par les recommandations imprimées sur le pneu ou fournies par son fabricant. Évitez de dépasser les limites indiquées. Une pression trop basse augmente le risque de choc sur la jante et peut rendre le vélo imprécis ; une pression trop élevée peut diminuer confort et adhérence sur une route irrégulière.</p>
+<p>Contrôlez la pression régulièrement avec une pompe équipée d'un manomètre. Une différence de quelques jours peut déjà modifier les sensations, particulièrement avec des pneus à faible volume.</p></div>
+
+<div class="article" id="equipement"><div class="cat">Équipement</div><h2>Les équipements vraiment utiles pour débuter</h2>
+<p>Le premier achat ne devrait pas être une collection complète d'accessoires. Commencez par ce qui améliore sécurité, fiabilité et confort.</p>
+<ul><li><strong>Casque :</strong> choisissez une taille correcte et un modèle conforme aux normes applicables.</li><li><strong>Éclairage :</strong> indispensable lorsque les conditions de visibilité l'exigent.</li><li><strong>Antivol :</strong> à choisir selon la valeur du vélo et le lieu de stationnement.</li><li><strong>Pompe et chambre à air ou solution adaptée au système de pneus :</strong> utiles pour ne pas dépendre immédiatement d'une assistance.</li><li><strong>Vêtements :</strong> privilégiez d'abord confort et météo avant les équipements très spécialisés.</li></ul>
+<p>Un équipement simple mais réellement utilisé est plus utile qu'un accessoire sophistiqué laissé au fond d'un placard.</p></div>
+
+<div class="article" id="chaine"><div class="cat">Entretien</div><h2>Comment entretenir une chaîne de vélo</h2>
+<p>Une chaîne propre et correctement lubrifiée fonctionne plus silencieusement et limite l'usure de la transmission. L'objectif n'est pas de la rendre brillante à tout prix, mais de retirer les saletés abrasives et d'appliquer un lubrifiant adapté.</p>
+<h3>Routine</h3><ol><li>Retirer les saletés avec un chiffon et, si nécessaire, un nettoyant adapté.</li><li>Laisser sécher la chaîne avant la lubrification.</li><li>Appliquer une petite quantité de lubrifiant adapté aux conditions.</li><li>Faire tourner la transmission puis essuyer l'excédent.</li><li>Surveiller l'allongement de la chaîne avec un outil de mesure lorsqu'elle est utilisée régulièrement.</li></ol>
+<p>Un excès de lubrifiant attire davantage de poussière. Le bon entretien est donc régulier et mesuré.</p></div>
+
+<div class="article" id="vitesse"><div class="cat">Progression</div><h2>Comment améliorer sa vitesse moyenne à vélo</h2>
+<p>La vitesse moyenne est influencée par le vent, les arrêts, le relief, la surface et le niveau d'entraînement. Pour progresser, commencez par réduire les variations inutiles d'effort plutôt que de chercher immédiatement du matériel plus cher.</p>
+<h3>Les leviers les plus accessibles</h3><ul><li>Rouler régulièrement plutôt que faire des sorties très espacées.</li><li>Apprendre à maintenir une allure soutenable sur la durée.</li><li>Travailler progressivement les côtes et les relances.</li><li>Entretenir pneus et transmission.</li><li>Choisir une position confortable qui réduit la résistance à l'air sans provoquer de douleurs.</li></ul>
+<p>Comparez vos sorties dans des conditions similaires. Une sortie ventée ou très urbaine ne peut pas être comparée directement à une sortie fluide sur route.</p></div>
+
+<div class="article" id="occasion"><div class="cat">Achat</div><h2>Acheter un vélo d'occasion : les contrôles essentiels</h2>
+<p>Avant de payer, inspectez le vélo dans un endroit bien éclairé. Regardez d'abord le cadre : recherchez fissures, bosses importantes, traces de réparation ou corrosion inhabituelle.</p>
+<ul><li>Faites tourner les roues et vérifiez qu'elles ne présentent pas de voile important.</li><li>Testez les freins et inspectez l'état des surfaces de freinage.</li><li>Vérifiez que les vitesses passent correctement.</li><li>Examinez chaîne, cassette et plateaux pour repérer une usure avancée.</li><li>Demandez l'historique d'entretien et, lorsque c'est pertinent, une preuve de propriété et les informations d'identification du vélo.</li></ul>
+<p>Un essai court permet ensuite de repérer bruits, jeux ou comportements anormaux. En cas de doute sur un cadre ou une pièce de sécurité, mieux vaut demander l'avis d'un professionnel avant l'achat.</p></div>
+
+<div class="article" id="electrique"><div class="cat">Mobilité</div><h2>Vélo électrique ou vélo classique : lequel choisir ?</h2>
+<p>Le vélo électrique peut être pertinent lorsqu'il permet de remplacer régulièrement un trajet motorisé, notamment avec du relief, une longue distance ou une contrainte de transpiration. Le vélo classique reste très intéressant lorsque l'on recherche simplicité, poids réduit et entretien limité.</p>
+<h3>Posez-vous trois questions</h3><ol><li>Quelle distance faites-vous réellement chaque semaine ?</li><li>Quel dénivelé et quelles conditions rencontrez-vous ?</li><li>Le vélo doit-il remplacer un trajet que vous ne feriez autrement pas à vélo ?</li></ol>
+<p>La meilleure décision est celle qui augmente réellement la fréquence d'utilisation. Un vélo plus simple que l'on utilise souvent peut être plus pertinent qu'un modèle très équipé utilisé rarement.</p></div>
+</section>
+
+<section class="section wrap" id="methodes"><h2>Notre méthode</h2><p class="lead">Les guides sont organisés autour de décisions concrètes : comprendre le problème, comparer les solutions et choisir en fonction de son usage.</p>
+<div class="features"><div class="feature"><strong>Comprendre</strong><span>Explications accessibles des notions techniques.</span></div><div class="feature"><strong>Comparer</strong><span>Avantages, limites et compromis avant toute recommandation.</span></div><div class="feature"><strong>Décider</strong><span>Des critères pratiques pour passer de l'information à l'action.</span></div></div></section>
+
+<section class="author"><div class="wrap authorbox"><div><div class="eyebrow">À PROPOS</div><h2>Un site pensé pour les cyclistes du quotidien</h2></div><p><strong>CycloPratique</strong> est édité par <strong>Lemaire Ambroise</strong>. Le site vise à rendre la pratique du vélo plus simple à comprendre, du premier trajet urbain à la découverte du vélo de route.</p></div></section>
+</main>
+<footer><div class="wrap foot"><div><h3>CycloPratique</h3><p>Guides pratiques et indépendants pour mieux choisir, utiliser et entretenir son vélo.</p></div><div><h3>Informations</h3><p><a href="a-propos.html">À propos</a><br><a href="contact.html">Contact</a><br><a href="mentions-legales.html">Mentions légales</a></p></div><div><h3>Données</h3><p><a href="confidentialite.html">Confidentialité</a><br><a href="cookies.html">Cookies et publicité</a></p></div><div class="copy">© 2026 CycloPratique — Éditeur : Lemaire Ambroise</div></div></footer>
+</body></html>
